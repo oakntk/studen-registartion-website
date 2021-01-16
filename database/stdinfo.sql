@@ -1,0 +1,20 @@
+CREATE TABLE students(
+    id int(10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username varchar(50) NOT NULL,
+    password varchar(50) NOT NULL,
+    studentno int(10) NOT NULL,
+    firstnme varchar(50) NOT NULL,
+    lastname varchar(50) NOT NULL,
+    DOB date NOT NULL,
+    gender varchar(10) NOT NULL,
+    program varchar(10) NOT NULL,
+    course varchar(50) NOT NULL,
+    yrlevel varchar(10) NOT NULL,
+    address varchar(200) NOT NULL,
+    city varchar(60) NOT NULL,
+    country varchar(60) NOT NULL,
+    postalcode int (10) NOT NULL,
+    mobile int(20) NOT NULL,
+    email varchar(60) NOT NULL,
+    date_joined date NOT NULL
+) 
